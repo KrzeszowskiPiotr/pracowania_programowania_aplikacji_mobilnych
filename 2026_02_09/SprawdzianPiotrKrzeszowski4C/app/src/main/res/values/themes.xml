@@ -1,0 +1,6 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SprawdzianPiotrKrzeszowski4C" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="Theme.SprawdzianPiotrKrzeszowski4C" parent="Base.Theme.SprawdzianPiotrKrzeszowski4C" />
+</resources>
