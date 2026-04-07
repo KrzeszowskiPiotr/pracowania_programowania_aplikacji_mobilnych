@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weterynarz</string>
+    <string name="title_text">Wizyta u weterynarza</string>
+    <string name="owner_hint">Imię i nazwisko właściciela...</string>
+    <string name="species_label">Gatunek</string>
+    <string name="age_label">Ile ma lat? 0</string>
+    <string name="purpose_hint">Cel wizyty</string>
+    <string name="default_time">16:00</string>
+    <string name="btn_ok">OK</string>
+</resources>
