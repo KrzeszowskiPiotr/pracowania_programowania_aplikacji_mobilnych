@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">zadanie_23_04</string>
+    <string name="zwi_ksz_liczb">zwiększ liczbę</string>
+    <string name="adres_e_mail">Adres e-mail</string>
+    <string name="klikn_e_przycisk_0_razy">Kliknąłeś przycisk 0 razy</string>
+    <string name="imie">Imie</string>
+</resources>
