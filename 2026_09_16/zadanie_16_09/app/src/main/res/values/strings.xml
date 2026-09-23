@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Urządzenia Domowe</string>
+    <string name="title_main">Urządzenia Domowe</string>
+    <string name="author_pesel">Autor: 00000000000</string>
+    <string name="washing_machine_title">Pralka</string>
+    <string name="washing_machine_hint">Podaj nr prania 1..12</string>
+    <string name="btn_confirm">Zatwierdź</string>
+    <string name="washing_machine_status_default">Numer prania: nie podano</string>
+    <string name="washing_machine_status_prefix">Numer prania: </string>
+    <string name="vacuum_title">Odkurzacz</string>
+    <string name="btn_turn_on">Włącz</string>
+    <string name="btn_turn_off">Wyłącz</string>
+    <string name="vacuum_status_off">Odkurzacz wyłączony</string>
+    <string name="vacuum_status_on">Odkurzacz włączony</string>
+    <string name="vacuum_battery_status">Status: naładowany</string>
+</resources>
