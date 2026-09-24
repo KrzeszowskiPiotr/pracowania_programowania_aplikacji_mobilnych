@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">czcionki</string>
+    <string name="title_properties">Właściwości czcionki</string>
+    <string name="label_size">Rozmiar: </string>
+    <string name="btn_next">&gt;&gt;</string>
+</resources>
