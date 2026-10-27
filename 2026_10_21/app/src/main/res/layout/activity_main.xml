@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/light_green"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tytul"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/sea_green"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/etImie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_imie"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/gatunek"
+        android:textStyle="bold"
+        android:paddingTop="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvPies"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pies"
+            android:padding="5dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvKot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/kot"
+            android:padding="5dp"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvSwinka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/swinka"
+            android:padding="5dp"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp">
+
+        <TextView
+            android:id="@+id/tvWiek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ile ma lat? 0" />
+
+        <SeekBar
+            android:id="@+id/seekBarWiek"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:max="20"
+            android:progress="0" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etCel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_cel" />
+
+    <EditText
+        android:id="@+id/etCzas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/czas_domyslny" />
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ok"
+        android:backgroundTint="@color/sea_green"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tvWynik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp" />
+
+</LinearLayout>

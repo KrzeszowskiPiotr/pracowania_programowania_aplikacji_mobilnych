@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tytul"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@color/element_bg"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/tvRozmiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rozmiar: 0"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingTop="15dp"
+        android:paddingBottom="5dp" />
+
+    <SeekBar
+        android:id="@+id/seekBarRozmiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="40"
+        android:progress="0"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:id="@+id/tvCytat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dzień dobry"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:paddingBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnDalej"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/btn_dalej"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/element_bg" />
+
+</LinearLayout>
